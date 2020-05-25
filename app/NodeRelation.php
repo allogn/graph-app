@@ -6,10 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class NodeRelation extends Model
 {
-    // Defines one existing relationship between two nodes.
+    // Defines on edge of the graph.
 
     /**
-     * Get the node that has invited the target node.
+     * Get the source node.
      */
     public function source_node()
     {
@@ -17,7 +17,7 @@ class NodeRelation extends Model
     }
 
     /**
-     * Get the node that was invited by the source node.
+     * Get the target node.
      */
     public function target_node()
     {

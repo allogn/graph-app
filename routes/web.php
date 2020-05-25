@@ -14,10 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/auth/{path?}', function(){
+Route::get('/login', function(){
     return view( 'authorization' );
 })->where('path', '.*');
 
-Route::get('/cabinet/{path?}', function(){
-    return view( 'cabinet' );
+Route::get('/app/{path?}', function(){
+    return view( 'app' );
 })->where('path', '.*');
+
+Route::get('/', function() {
+    return "Hello world";
+});

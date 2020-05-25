@@ -26,3 +26,7 @@ $factory->define(User::class, function (Faker $faker) {
         'remember_token' => Str::random(10),
     ];
 });
+
+$factory->state(User::class, "not_verified_email", [
+    'email_verified_at' => null
+]);
