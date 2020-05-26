@@ -1,4 +1,4 @@
-# Application for managing a user-specific knowledge graphs
+# Application for managing knowledge graphs
 
 The idea of the application is to manage shared knowledge graphs, for example a family tree. Each node of the tree corresponds to a profile (an entity that belongs to the tree), that can be created by users of the system. Trees can be shared. For example, there is a son and a father, each has an account (a username). They share a tree. They can create profiles (e.g. mother/wife), and assign to a node in the tree.
 
