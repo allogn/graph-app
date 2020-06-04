@@ -23,6 +23,10 @@ Create .env
 Add laravel app key by
 php artisan key:generate
 
+## Config
+
+Config file for frontend is located in js/config.js
+
 ## Testing
 
 `npm test`

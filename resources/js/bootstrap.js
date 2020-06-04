@@ -1,3 +1,7 @@
+import config from 'react-global-configuration';
+import configuration from './config';
+config.set(configuration);
+
 window._ = require('lodash');
 
 /**
