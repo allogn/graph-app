@@ -25,3 +25,4 @@ php artisan key:generate
 
 ## Testing
 
+`npm test`
