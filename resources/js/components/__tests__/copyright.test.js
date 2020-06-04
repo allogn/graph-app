@@ -10,5 +10,5 @@ test('Test correct year and app name in copyright', () => {
         <Copyright></Copyright>
     );
     expect(getByText('app-name')).toBeInTheDocument();
-    expect(getByText('2020', {exact: false})).toBeInTheDocument();
+    expect(getByText((new Date().getFullYear()).toString(), {exact: false})).toBeInTheDocument();
 });
