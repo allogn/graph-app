@@ -1,7 +1,7 @@
 import React from 'react';
 import config from 'react-global-configuration';
-import { render } from '@testing-library/react'
-import '@testing-library/jest-dom/extend-expect'
+import { render } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
 import Copyright from '../Copyright';
 
 test('Test correct year and app name in copyright', () => {
