@@ -2,6 +2,8 @@ import config from 'react-global-configuration';
 import configuration from './config';
 config.set(configuration);
 
+import './i18n';
+
 window._ = require('lodash');
 
 /**
