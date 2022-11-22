@@ -35,7 +35,7 @@
         "react-global-configuration": "^1.4.0",
         "react-test-renderer": "^16.13.1",
         "regenerator-runtime": "^0.13.5",
-        "resolve-url-loader": "^3.1.0",
+        "resolve-url-loader": "^5.0.0",
         "sass": "^1.26.7",
         "sass-loader": "^8.0.0",
         "yup": "^0.29.1"
